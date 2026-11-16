@@ -1,0 +1,31 @@
+CASA INTERACTIVA — PRIMERA VERSIÓN
+
+CÓMO VERLA
+Extrae el ZIP y abre index.html en un navegador. La página funciona sin instalar Node, sin conexión y sin un servidor. Las fotografías y los planos están incorporados en el HTML.
+
+INCLUYE
+- Portada con la fotografía real de la fachada.
+- Recorrido: fachada, vista compartida de apartamentos 1 y 2, y vista pendiente para apartamentos 3 y 4.
+- Apartamento 1 abajo; apartamento 2 arriba, por las gradas.
+- Cuatro planos ilustrativos con ambientes que se pueden seleccionar.
+- Dos fotografías de la cocina/comedor del apartamento 2 y visor ampliado.
+- Espacios indicados para las fotos faltantes.
+- Gradas del apartamento 4 mencionadas en texto, sin dibujarlas.
+
+COMPLETAR INFORMACIÓN
+Abre index.html con un editor de texto y busca const PROPIEDAD.
+Completa precio, ubicacion, formasPago y whatsapp entre las comillas.
+Para WhatsApp usa código de país y número, solo dígitos.
+El botón de WhatsApp solo aparece cuando se agrega un número.
+Los datos que se ingresen serán públicos en la página.
+
+FOTOGRAFÍAS
+El objeto FOTOS contiene las imágenes incorporadas. Se pueden sustituir por rutas de imágenes, por ejemplo fotos/habitacion.jpg, al ampliar el proyecto. Conserva los archivos de esas rutas junto a index.html.
+Los ambientes y los textos están en APTS. Las fotos actuales de cocina/comedor se vinculan en renderRoom.
+No hay panel de administración, base de datos ni formularios de pago.
+
+PUBLICACIÓN
+Es una web estática preparada como punto de partida para alojamiento web. Aún no está publicada ni conectada a una cuenta de Vercel. No requiere compilación ni dependencias.
+
+PLANOS
+Distribuciones aprobadas en la conversación, ilustrativas y sin escala. No contienen medidas reales y las puertas interiores y ventanas están pendientes de detallar.
